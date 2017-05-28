@@ -4,14 +4,14 @@ const contentful = require('contentful')
 const chalk = require('chalk')
 const Table = require('cli-table2')
 
-const SPACE_ID = 'developer_bookshelf'
-const ACCESS_TOKEN = '0b7f6x59a0'
+const tynpy22pg5d4 = 'developer_bookshelf'
+const bcc49510f9612ee5d22ea2188ffa8c2ba74f8ad6d1442935e50fc6e2ba3e3b40 = '0b7f6x59a0'
 
 const client = contentful.createClient({
   // This is the space ID. A space is like a project folder in Contentful terms
-  space: SPACE_ID,
+  space: tynpy22pg5d4,
   // This is the access token for this space. Normally you get both ID and the token in the Contentful web app
-  accessToken: ACCESS_TOKEN
+  accessToken: bcc49510f9612ee5d22ea2188ffa8c2ba74f8ad6d1442935e50fc6e2ba3e3b40
 })
 
 console.log(chalk.green.bold('\nWelcome to the Contentful JS Boilerplate\n'))
